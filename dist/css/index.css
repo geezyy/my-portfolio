@@ -13,6 +13,10 @@
     background: linear-gradient(#e66465, #9198e5);
 }
 
+.pixel{
+    margin: -40rem 0 0 20rem;
+}
+
 @media screen {
     .hero-links{
         margin-left:-1rem;
@@ -21,4 +25,43 @@
     nav{
         position:fixed;
     }
+}
+
+
+.head{
+    margin-top:6rem;
+}
+
+@media screen   {
+    
+}
+
+
+.cd-top{
+    width: 1rem;
+    height: 1rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 0 15rem 75rem;
+    position: sticky;
+    background-color: #e66465;
+    border-radius: 100%;
+}
+
+
+.cd-top--is-visible { 
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  opacity: .5;
+}
+
+.proj-img{
+    padding: 1rem;
+    height:20rem;
+    width: 20rem;
 }
